@@ -1,4 +1,19 @@
-구름IDE에서 RESTful한 게시판 구현 연습
+구름IDE에서 RESTful한 게시판 구현 연습 (SpringBoot + MySQL)
+
+/board
+METHOD : GET → 글 목록 조회
+
+/board/4
+METHOD : GET → 4번 글 조회
+
+/board/post
+METHOD : GET → 글 작성페이지 조회
+METHOD : POST → 글 등록
+
+/board/post/4
+METHOD : GET → 4번 글 수정페이지 조회
+METHOD : PATCH → 4번 글 수정
+METHOD : DELETE → 4번 글 삭제
 
 ```
 
